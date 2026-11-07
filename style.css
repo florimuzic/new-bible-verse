@@ -1,0 +1,65 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+  margin: 0;
+  padding-top: 2.5%;
+  min-height: 100vh;
+  background: url("https://4.bp.blogspot.com/-p-MYv7vCz9U/UUspNl9_zlI/AAAAAAAAjq8/EiwqDk124fk/s1600/Full+HD+love+Wallpapers+(1).jpg") no-repeat center 1%/cover fixed #111;
+}
+
+.container {
+  padding: 0 2%;
+}
+
+.verse-bg {
+  background: rgba(20, 20, 20, 0.5);
+  font-family: Georgia, serif;
+  border-radius: 20px;
+  max-height: 65vh;
+  overflow: hidden;
+  transition: opacity 0.5s;
+}
+
+.verse {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 13vh;
+  padding: 3% 1%;
+  line-height: 110%;
+}
+
+.verse-info {
+  font-family: Georgia, serif;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: right;
+  font-size: 3.2vw;
+  padding-top: 2%;
+  padding-right: 3%;
+  transition: opacity 0.5s;
+}
+
+.controls {
+  position: fixed;
+  bottom: 2%;
+  left: 2%;
+}
+
+.row {
+  margin-bottom: 6px;
+}
+
+.controls-item,
+select {
+  background-color: rgba(130, 130, 130, 0.25);
+  color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+option {
+  background-color: #222;
+  color: #fff;
+}
